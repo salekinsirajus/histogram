@@ -36,8 +36,8 @@ def file_input_handling():
 	crudeList = []
 	for line in fileObject:
 		crudeList.extend(re.findall("\\w+(?:'\\w+)?",line))
-		fileObject.close()
-		lower_cased = lower_casing(crudeList)
+	fileObject.close()
+	lower_cased = lower_casing(crudeList)
 
 	if os.path.isfile(stop_file) is True:
 		f =  open(stop_file, 'r') 

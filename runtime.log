@@ -11,3 +11,5 @@ pure_dictionary, # of words: 3032640 time: 0.782644033432
 collections_Counter, # of words: 3032640 time: 1.15041303635
 heap_heapq, # of words: 3032640 time: 0.82831120491
 pure_dictionary, # of words: 205 time: 0.000228881835938
+pure_dictionary, # of words: 531 time: 0.000434160232544
+heap_heapq, # of words: 531 time: 0.000437021255493

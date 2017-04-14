@@ -7,10 +7,18 @@ typing "chmod +x install.sh", and then run "./install.sh"
 
 If you want to install the dependencies manually, enter
 the following commands:
-
-	sudo pip install matplotlib
 	sudo pip install ascii_graph
 	sudo pip install validators
+
+Note: if install.sh doesn't work, there is probably an issue with installing
+matplotlib. Please install it separetely. Following are the instructions
+	sudo python -m pip install -U pip setuptools
+	sudo python -m pip install matplotlib	
+if you encounter an error regarding python.h file, run the following command
+	sudo apt-get update
+	sudo apt-get python-dev
+and then
+	sudo python -m pip matplotlib
 
 You should be ready to use the program now.
 ========================================================================
