@@ -5,12 +5,20 @@ Setup:
 To fulfill the dependencies, make install.sh file exexcutable by
 typing "chmod +x install.sh", and then run "./install.sh"
 
-If you want to install the dependencies manually, enter
-the following commands:
+Please make sure you have the following libraries installed:
+matplotlib, ascii_graph, validators
 
-	sudo pip install matplotlib
-	sudo pip install ascii_graph
-	sudo pip install validators
+There is an install.sh file provided, but it's based on debian distros.
+Note: if install.sh doesn't work, there is probably an issue with installing
+matplotlib. Please install it separetely. Following are the instructions
+        sudo python -m pip install -U pip setuptools
+        sudo python -m pip install matplotlib
+if you encounter an error regarding python.h file, run the following command
+        sudo apt-get update
+        sudo apt-get python-dev
+and then
+        sudo python -m pip matplotlib
+
 
 You should be ready to use the program now.
 ========================================================================
