@@ -1,0 +1,13 @@
+pure_dictionary, # of words: 11563 time: 0.00851798057556
+collections_Counter, # of words: 11563 time: 0.0047619342804
+heap_heapq, # of words: 11563 time: 0.0122261047363
+pure_dictionary, # of words: 30577 time: 0.0238029956818
+collections_Counter, # of words: 30577 time: 0.0372960567474
+heap_heapq, # of words: 30577 time: 0.0169007778168
+pure_dictionary, # of words: 606528 time: 0.197808980942
+collections_Counter, # of words: 606528 time: 0.242082834244
+heap_heapq, # of words: 606528 time: 0.204500198364
+pure_dictionary, # of words: 3032640 time: 0.782644033432
+collections_Counter, # of words: 3032640 time: 1.15041303635
+heap_heapq, # of words: 3032640 time: 0.82831120491
+pure_dictionary, # of words: 205 time: 0.000228881835938
