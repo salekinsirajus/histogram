@@ -1,20 +1,28 @@
 Author: Sirajus Salekin
 =====================================================================
 Setup:
-
+This program uses at Python 2.x version
 To fulfill the dependencies, make install.sh file exexcutable by
 typing "chmod +x install.sh", and then run "./install.sh"
+
+Alternatively, Please make sure you have the following libraries installed:
+matplotlib, ascii_graph, validators
+
+There is an install_debian.sh file provided for debian distros, which
+seem to have several issues installing matplotlib
 
 Please make sure you have the following libraries installed:
 matplotlib, ascii_graph, validators
 
 There is an install.sh file provided, but it's based on debian distros.
+
 Note: if install.sh doesn't work, there is probably an issue with installing
 matplotlib. Please install it separetely. Following are the instructions
         sudo python -m pip install -U pip setuptools
         sudo python -m pip install matplotlib
 if you encounter an error regarding python.h file, run the following command
         sudo apt-get update
+        sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
         sudo apt-get python-dev
 and then
         sudo python -m pip matplotlib
@@ -44,3 +52,4 @@ How to use the program:
 
 6. If you want to use different set of input files, quit the program and enter them 
    on command line directly
+   
